@@ -12,7 +12,6 @@ function validation(name,surname,ID,gender,date){
         return false;
     }
     else if(gender === "" || (gender!="კაცი" && gender!="ქალი")) {
-        console.log(gender)
         alert("შეამოწმეთ სქესის ველი");
         return false;
     }
