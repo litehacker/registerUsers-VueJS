@@ -7,7 +7,7 @@ function validation(name,surname,ID,gender,date){
         alert("შეამოწმეთ გვარი");
         return false;
     }
-    else if(ID === "" || isNaN(ID)||ID<10000000000 || ID>99999999999) {
+    else if(ID === "" || isNaN(ID)|| ID>99999999999) {
         alert("შეამოწმეთ პირადი ნომერი");
         return false;
     }
